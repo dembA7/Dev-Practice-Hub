@@ -10,7 +10,7 @@
  * Double Hasta 15 decimales
  * 
  * Char: Representan caracteres
- * 
+ * Boolean: Devuelven true / false
 */
 
 public class dataTypes {

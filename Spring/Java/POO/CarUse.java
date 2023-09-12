@@ -18,6 +18,17 @@ public class CarUse {
             System.out.println("La Jeep tiene asientos de cuero.");
         }
 
+        Car Volkswagen = new Car();
+        Volkswagen.caballosFuerza = 155;
+        Volkswagen.setCalentadorAsientos(false);
+
+        Van Mercedes = new Van(500, 4);
+        int capacidadCargaMercedes = Mercedes.getCapacidadCarga();
+        int plazasExtraMercedes = Mercedes.getPlazasExtra();
+        int numeroRuedasMercedes = Mercedes.getRuedas();
+        System.out.println("La van Mercedes tiene " + capacidadCargaMercedes + " kg de capacidad de carga, cuenta con " + plazasExtraMercedes 
+        + " plazas extra y tiene " + numeroRuedasMercedes + " ruedas.");
+
 
         System.out.println();
     }
